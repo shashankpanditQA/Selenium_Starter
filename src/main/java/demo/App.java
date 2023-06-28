@@ -7,13 +7,13 @@ import java.net.MalformedURLException;
 
 public class App {
     public void getGreeting() throws InterruptedException, MalformedURLException {
-        LinkdenProfile LinkdenProfile  = new LinkdenProfile(); // Initialize your test class
-        LinkdenProfile.testCase01();
+        BookmyShowurl bookmyshow  = new BookmyShowurl(); // Initialize your test class
+        bookmyshow.testCase01();
 
         //END Tests
 
 
-        LinkdenProfile.endTest(); // End your test by clearning connections and closing browser
+        bookmyshow.endTest(); // End your test by clearning connections and closing browser
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
